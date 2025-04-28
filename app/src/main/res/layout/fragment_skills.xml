@@ -11,9 +11,11 @@
         android:id="@+id/skills_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
         android:text="Your Skills:"
-        android:textAppearance="@style/TextAppearance.Material3.HeadlineSmall" />
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="?attr/colorOnSurface"
+        android:layout_marginBottom="12dp"  />
 
     <ListView
         android:id="@+id/skills_list_view"

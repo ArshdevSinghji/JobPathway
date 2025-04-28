@@ -17,6 +17,7 @@
         <activity android:name=".MainActivity"/>
         <activity android:name=".SignInUp"/>
         <activity android:name=".JobListActivity"/>
+        <activity android:name=".HomePage"/>
         <activity
             android:name=".SplashScreen"
             android:theme="@style/Theme.App.SplashScreen"

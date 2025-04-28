@@ -53,7 +53,7 @@ class SetUpProfile : AppCompatActivity() {
             editor.putString("education", education.text.toString())
             editor.putString("preferredLocation", preferredLocation.text.toString())
             editor.apply()
-            startActivity(Intent(this, JobListActivity::class.java))
+            startActivity(Intent(this, HomePage::class.java))
         }
 
     }

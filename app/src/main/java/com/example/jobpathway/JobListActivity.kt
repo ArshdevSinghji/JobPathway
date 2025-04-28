@@ -55,6 +55,16 @@ class JobListActivity : AppCompatActivity() {
                     val outputStream = file.outputStream()
                     val defaultData = """
                         
+                            JobTitle: Frontend Developer, Company: PixelWave, Location: Hyderabad, Salary: ₹9,00,000
+                            JobTitle: Backend Engineer, Company: CodeBase, Location: Pune, Salary: ₹10,50,000
+                            JobTitle: Machine Learning Engineer, Company: BrainTech, Location: Bangalore, Salary: ₹13,00,000
+                            JobTitle: DevOps Engineer, Company: CloudSphere, Location: Chennai, Salary: ₹11,00,000
+                            JobTitle: Full Stack Developer, Company: NexaSoft, Location: Noida, Salary: ₹10,80,000
+                            JobTitle: Cybersecurity Analyst, Company: SecureNet, Location: Gurgaon, Salary: ₹9,50,000
+                            JobTitle: Android Developer, Company: Appify, Location: Jaipur, Salary: ₹8,75,000
+                            JobTitle: UI/UX Designer, Company: DesignGenie, Location: Ahmedabad, Salary: ₹7,50,000
+                            JobTitle: Database Administrator, Company: DataKeepers, Location: Kolkata, Salary: ₹9,20,000
+                            JobTitle: Software Tester, Company: QualityCode, Location: Chandigarh, Salary: ₹7,80,000
                             JobTitle: iOS Developer, Company: SwiftLogic, Location: Bangalore, Salary: ₹9,60,000
                             JobTitle: Systems Analyst, Company: TechEdge, Location: Mumbai, Salary: ₹8,90,000
                             JobTitle: Blockchain Developer, Company: ChainNova, Location: Hyderabad, Salary: ₹14,00,000
@@ -75,16 +85,7 @@ class JobListActivity : AppCompatActivity() {
                             JobTitle: Site Reliability Engineer, Company: UptimeTech, Location: Bangalore, Salary: ₹11,90,000
                             JobTitle: NLP Engineer, Company: LangAI, Location: Gurgaon, Salary: ₹13,50,000
                             JobTitle: Tech Support Engineer, Company: HelpWise, Location: Chandigarh, Salary: ₹6,50,000
-                            JobTitle: Frontend Developer, Company: PixelWave, Location: Hyderabad, Salary: ₹9,00,000
-                            JobTitle: Backend Engineer, Company: CodeBase, Location: Pune, Salary: ₹10,50,000
-                            JobTitle: Machine Learning Engineer, Company: BrainTech, Location: Bangalore, Salary: ₹13,00,000
-                            JobTitle: DevOps Engineer, Company: CloudSphere, Location: Chennai, Salary: ₹11,00,000
-                            JobTitle: Full Stack Developer, Company: NexaSoft, Location: Noida, Salary: ₹10,80,000
-                            JobTitle: Cybersecurity Analyst, Company: SecureNet, Location: Gurgaon, Salary: ₹9,50,000
-                            JobTitle: Android Developer, Company: Appify, Location: Jaipur, Salary: ₹8,75,000
-                            JobTitle: UI/UX Designer, Company: DesignGenie, Location: Ahmedabad, Salary: ₹7,50,000
-                            JobTitle: Database Administrator, Company: DataKeepers, Location: Kolkata, Salary: ₹9,20,000
-                            JobTitle: Software Tester, Company: QualityCode, Location: Chandigarh, Salary: ₹7,80,000
+
 
                             """.trimIndent()
 

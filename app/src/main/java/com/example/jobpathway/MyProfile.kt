@@ -28,6 +28,7 @@ class MyProfile : AppCompatActivity() {
                 0 -> "Personal"
                 1 -> "Professional"
                 2 -> "Skills"
+                3 -> "Experience"
                 else -> "Tab ${position + 1}"
             }
         }.attach()
